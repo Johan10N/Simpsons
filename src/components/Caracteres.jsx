@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 function Caracteres({ character }) {
   const [modalShow, setModalShow] = useState(false);
   return (
-    <div className="tarjeta card text-center" >
+    <div className="text-center" >
       <br></br>
       <img
         className="card-img-top imagen2" 
@@ -21,9 +21,7 @@ function Caracteres({ character }) {
       </Button>
       <MydModalWithGrid  show={modalShow} onHide={() => setModalShow(false)} 
       nombre={character.Nombre} estado={character.Estado} ocupa={character.Ocupacion}
-      sexo={character.Genero} histo={character.Historia}/>       
-   
-      
+      sexo={character.Genero} histo={character.Historia}/>      
      </div>
     </div>
   );

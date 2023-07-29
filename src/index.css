@@ -28,7 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #ffd521;
+  background-color: #59ccd9;
 }
 
 h1 {
@@ -74,7 +74,7 @@ button:focus-visible {
 }
 
 .card {
-  background-color: #ffd521;
+  background-color: #2495db;
   align-items: center;
   }
 

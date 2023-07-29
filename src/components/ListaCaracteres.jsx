@@ -33,7 +33,7 @@ function ListaCaracteres() {
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
-        "https://apisimpsons.fly.dev/api/personajes?limit=6&page=" + page
+        "https://apisimpsons.fly.dev/api/personajes?limit=15&page=" + page
       );
       const data = await response.json();
       setLoading(false);
